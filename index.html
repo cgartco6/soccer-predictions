@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Prediction App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soccer Predictions</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Match Teams</h2>
+            <form id="team-form">
+                <input type="text" id="home-team" placeholder="Home Team" required>
+                <input type="text" id="away-team" placeholder="Away Team" required>
+                <button type="submit">Get Predictions</button>
+            </form>
+        </section>
+        
+        <section id="predictions">
+            <h2>Predictions</h2>
+            <div id="predictions-output">
+                <!-- Predictions will appear here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Soccer Predictions. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
